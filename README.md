@@ -34,8 +34,15 @@
 
 BE、FE、Infraに分かれたポリレポ構成のプロダクト。Next.jsをFEとし、BEは[Hasura](https://hasura.io/)で基本的なリクエストを受け取り、複雑な処理のみGoで建てたGraphQLサーバーにリクエストを流すという形を取っている。デプロイはすべてCloud Run。
 
+様々な会社が利用するマルチテナント構成の中でアプリケーションを開発。
+
 マイクロサービス
 社内システム
 リプレイス
 アーキテクチャの切り替え
 アジャイル開発
+レイヤードアーキテクチャ
+
+~現在
+
+リユースプラットフォーム[Cosmos](https://speakerdeck.com/buyselltechnologies/enziniacai-yong-buysell-technologieshui-she-shuo-ming-zi-liao?slide=26)の出張訪問買い取りアプリケーション(Visit)の開発
